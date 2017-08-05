@@ -1,2 +1,9 @@
-var name ="KARAN"
-module.exports = name
+function msg(){  
+ alert("Hello");  
+}  
+
+    function uclicked(){
+   alert("Byee");
+    }
+
+  

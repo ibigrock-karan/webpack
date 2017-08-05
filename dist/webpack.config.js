@@ -15,5 +15,15 @@ module.exports= {
             {
                 {test: /\.css$/, loader:"style-loader", "css-loader"}
 
-            },
+            }
 };
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.exec\.js$/,
+        use: [ 'script-loader' ]
+      }
+    ]
+  }
+}

@@ -1,10 +1,2 @@
-var name = require("./test.js")
-alert(name)
-function msg(){  
- alert("Hello Javatpoint");  
-}  
+import exec from 'script-loader!./test.js';
 require("!style-loader!css-loader!./style.css");
-
-    function uclicked(){
-        console.log('You clicked');
-    }
